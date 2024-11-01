@@ -1,0 +1,233 @@
+.form-table th.talkmsetting {
+  width: 156px;
+}
+.talkm_con {  margin-left: 12.2%;  width: 30%;}
+#talkm_login p > span {
+  margin-top: 10px;
+  float: left;
+  width: 12%;
+}
+.talkmnotice {
+  font-size: 14px;
+  font-style: italic;
+  color: #b3b3b5;
+}
+#talkm_login .text {
+    height: 36px;
+}
+.talkmheader {
+  background-color: #f1f1f1;
+  border: medium none;
+  float: left;
+  font-size: 2em;
+  overflow: hidden;
+  width: 95%;
+}
+div.talkmel{
+  float:left;
+  width:10%;
+  min-width: 75px;
+  min-height: 80px;
+  text-align: center;
+}
+
+div.talkmheadtext{
+  float:left;
+  line-height: 86px;
+}
+
+div.talkmfootaction{
+  float:left;
+  width:10%;
+  min-width: 75px;
+}
+
+div.talkmfoottext{
+  float:right;
+  text-align: right;
+}
+
+a.talkmlink{
+  color:#0085BA;
+  text-decoration: none;
+}
+
+a.talkmlink:hover{
+  text-decoration: underline;
+}
+
+div.talkmaction{
+    overflow: hidden;
+    background-color: #F1F1F1;
+	width: 97%;
+}
+
+div.talkmaction p{
+    margin:0;
+    padding:0;
+} 
+.talkmsettingsbody{
+    overflow: hidden;
+    background-color: #F1F1F1;
+    width:99%;
+}
+div.talkmtabs {
+  float:left;
+  overflow: hidden;
+  background-color: #F1F1F1;
+  min-width: 75px;
+  width: 100%;
+}
+div.talkmtabs button {
+  background-color: inherit;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  float: left;
+  outline: medium none;
+  padding: 8px 0;
+  transition: all 0.3s ease 0s;
+  width: 10%;
+  border-bottom:none;
+}
+div.talkmtabs button:hover {
+    background-color: #ddd;
+    color:#FF0000;
+}
+div.talkmtabs button.active {
+    background-color: #c5c5c5;
+}.talkmtabcontent {  background-color: #f1f1f1;  border-color: #ccc;  border-style: solid;  border-width: 1px;  display: none;  float: left;  min-width: 240px;  padding: 6px 13px;  width: 97%;}
+#talkmvisibilitysettings th {
+  padding: 0;
+}
+.talkmsetting {
+  padding-top: 13px !important;
+}
+
+#talkmvisibilitysettings .talkm_content h4 {
+   margin: 5px 16px 0 0;
+}
+#talkmvisibilitysettings .talkm_content {
+    display: inline-flex;
+}
+#talkmvisibilitysettings .talkmnotice {
+    margin-top: 0;
+}
+#talkmvisibilitysettings .form-table .talkm-all-page p {
+    float: left;
+    padding-right: 25px;
+} 
+#talkmvisibilitysettings .form-table .talkmsetting {
+    float: left;
+    width: 100%;
+    max-width: 200px;
+}
+#talkmvisibilitysettings .form-table .talkm-all-page {
+	float: left;
+	padding-top: 9px;
+	padding-bottom: 0px;
+	margin-bottom: 0;
+}
+#talkmvisibilitysettings > h4 {
+    margin: 13px 0 0;
+}
+textarea#excluded_url_list_talkm {
+    width: 50%;
+}
+.talkM-check-block .control {
+	cursor: pointer;
+	display: block;
+	font-size: 12px;
+	margin-bottom: 0;
+	padding-left: 30px;
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-top: 6px;
+}
+.talkM-check-block label {
+	color: #000;
+	font-size: 16px;
+	font-weight: 500;
+}
+.talkM-check-block .control input {
+	opacity: 0;
+	position: absolute;
+	z-index: -1;
+}
+.talkM-check-block .control--radio .talkM-control__indicator::after {
+	background: #f60200 none repeat scroll 0 0;
+	border-radius: 50%;
+	height: 12px;
+	left: 0;
+	top: 4px;
+	width: 12px;
+	right: 0;
+	margin: 0 auto;
+}
+.talkM-check-block .talkM-control__indicator::after {
+	content: "";
+	display: none;
+	position: absolute;
+}
+.talkM-check-block .control--radio .talkM-control__indicator {
+	border-radius: 50%;
+}
+.talkM-check-block .talkM-control__indicator {
+	border: 2px solid #99a5af;
+	height: 20px;
+	left: 0;
+	position: absolute;
+	top: -5px;
+	width: 20px;
+}
+.talkM-check-block .control input:checked ~ .talkM-control__indicator::after {
+	display: block;
+}
+.control input:checked ~ .talkM-control__indicator::after {
+	display: block;
+}
+.talkM-check-block.control input {
+	opacity: 0;
+	position: absolute;
+	z-index: -1;
+}
+.talkM-check-block {
+	float: left;
+	margin-right: 25px;
+}
+
+ @media (min-width: 768px) and (max-width: 1024px) {.talkmtabcontent {  width: 96%;}div.talkmtabs button {  width: 14%;}
+}
+ @media (min-width: 481px) and (max-width: 767px) {
+  .talkm_con {    margin-left: 0;} 
+ div.talkmtabs button {
+    width: 31%;
+}
+.talkmtabcontent {
+    width: 90%;
+}
+.talkmtabcontent.visibilitycontent {
+     padding:6px 12px;
+}
+textarea#excluded_url_list_talkm {
+    width: 100%;
+}#talkm_login p > span {    float: left;    margin-top: 10px;    width: 100%;}
+ #talkm_login .text {    width: 75%;}
+}
+
+ @media (min-width: 320px) and (max-width: 480px) {.talkm_con {    margin-left: 0;}  
+  #talkm_login p > span {    float: left;    margin-top: 10px;    width: 100%;}
+div.talkmtabs button {
+   width: 31%;
+}
+.talkmtabcontent {
+    width: 90%;
+}
+.talkmtabcontent.visibilitycontent {
+     padding:6px 12px;
+}
+textarea#excluded_url_list_talkm {
+    width: 100%;
+}
+  #talkm_login .text {    width: 75%;}
+}
